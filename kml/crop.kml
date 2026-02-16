@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="crop" id="crop">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>crop</name>
+  <Placemark id="crop.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#crop">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>113.13482146044,-1.88481352918988 114.47967162388,-1.87428512229267 114.486694340138,-3.52273627028314 113.120776027924,-3.53325038103037 113.13482146044,-1.88481352918988</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

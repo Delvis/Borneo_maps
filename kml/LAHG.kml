@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="lahg" id="lahg">
+	<SimpleField name="id" type="float"></SimpleField>
+</Schema>
+<Folder><name>lahg</name>
+  <Placemark id="lahg.1">
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#lahg">
+		<SimpleData name="id">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>113.731306528952,-2.52495334252261 113.590088161593,-2.3729585366045 113.815218892165,-2.28025388117828 113.828863178866,-2.28979728737563 113.86570275296,-2.29456896665565 113.882075897002,-2.3047939400231 113.91686882809,-2.3082022481746 113.930513114791,-2.32524366610793 113.987819118937,-2.368868754613 113.731306528952,-2.52495334252261</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

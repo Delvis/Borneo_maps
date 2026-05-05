@@ -1,4 +1,4 @@
-# Bornean Orangutan Medicinal Diet Analysis
+# Bornean Orangutan Medicinal Diet Analysis Map
 
 This repository contains the R (version 4.5.2) code used to generate the spatial visualizations for a forthcoming paper titled **"Investigating Medicinal Resource Combinations in the Bornean Orangutan Diet"** by Allen et al. (2026).
 

@@ -1,12 +1,12 @@
 # Bornean Orangutan Medicinal Diet Analysis
 
-This repository contains the R code used to generate the spatial visualizations for a forthcoming paper titled **"Investigating Medicinal Resource Combinations in the Bornean Orangutan Diet"** by Allen et al. (2026).
+This repository contains the R (version 4.5.2) code used to generate the spatial visualizations for a forthcoming paper titled **"Investigating Medicinal Resource Combinations in the Bornean Orangutan Diet"** by Allen et al. (2026).
 
 ---
   
-  ## Project Overview
+## Project Overview
   
-  This project is part of a study investigating the **Self-Medicative Resource Combinational Hypothesis (SMRCH)** in wild Bornean orangutans (*Pongo pygmaeus*). Using 20 years of focal observation data from the Sebangau peat-swamp forest in Central Kalimantan, we analyzed non-random dietary combinations of plants with documented ethnomedicinal properties.
+This project is part of a study investigating the **Self-Medicative Resource Combinational Hypothesis (SMRCH)** in wild Bornean orangutans (*Pongo pygmaeus*). Using 20 years of focal observation data from the Sebangau peat-swamp forest in Central Kalimantan, we analyzed non-random dietary combinations of plants with documented ethnomedicinal properties.
 
 The provided scripts generate the study site maps (Figure 1), highlighting the **Natural Laboratory for the Study of Peat Swamp Forest (LAHG)** and the specific **9 km² study area** where over 20,000 hours of behavioral data were collected.
 
@@ -47,12 +47,12 @@ Formatted specifically for print publication.
   
 To run the R scripts, you will need the following libraries:
   
-- `sf`  
-- `dplyr`  
-- `ggplot2`  
-- `ggspatial`  
-- `rnaturalearth`  
-- `cowplot`  
+- `sf` (v1.0.24)
+- `dplyr` (v1.1.4)
+- `ggplot2` (v4.0.1)
+- `ggspatial` (v1.1.10)
+- `rnaturalearth` (v1.1.0)
+- `cowplot` (v1.2.0)
 
 Install them in R using:
   
@@ -62,4 +62,4 @@ install.packages(c("sf", "dplyr", "ggplot2", "ggspatial", "rnaturalearth", "cowp
 
 **Citation**
   
-Allen, G., Freymann, E., d’Oliveira Coelho, J., Shagara, H., Shinyo, I., Panda, A., Jaya, A., Hockings, K. J., & Morrogh-Bernard, H. C. (2026). *Investigating Medicinal Resource Combinations in the Bornean Orangutan Diet.* In Preparation.
+Allen, G., Freymann, E., d’Oliveira Coelho, J., Shagara, H., Shinyo, I., Panda, A., Jaya, A., Hockings, K. J., & Morrogh-Bernard, H. C. (2026). Investigating Medicinal Resource Combinations in the Bornean Orangutan Diet. *Scientific Reports*.
